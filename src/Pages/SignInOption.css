@@ -1,0 +1,54 @@
+.totaldiv {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .fbdiv,
+  .googlediv,
+  .applediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .FBbtn,
+  .Googlebtn,
+  .Applebtn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px; /* Set a fixed width */
+  }
+  
+  .Fbicon,
+  .googleicon,
+  .applediv > div {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  /* Specific styles for buttons */
+  .FBbtn {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .Googlebtn {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .Applebtn {
+    background-color: #3b5998;
+    color: white;
+  }
+  

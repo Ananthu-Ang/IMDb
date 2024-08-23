@@ -1,0 +1,342 @@
+ 
+ /* Header stylings  */
+ 
+
+
+
+/* Footer Styling */
+.alldiv {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .socialmd p, .alldiv p {
+    color: white;
+    margin-bottom: 20px; /* Space between text and elements */
+  }
+  
+  .icondiv {
+    display: flex;
+    gap: 40px; /* Space between icons */
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px; /* Space below the icons */
+  }
+  
+  .frstline {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the links */
+    margin-bottom: 15px; /* Space between lines of links */
+  }
+  .scndline {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the links */
+    margin-bottom: 15px; /* Space between lines of links */
+    position: relative; /* Allows positioning within the scndline */
+    flex-direction: row; /* Stack the links and footerlastpart vertically */
+    align-items: center; /* Center the content horizontally */
+  }
+  
+  .frstline a, .scndline a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .frstline a:hover, .scndline a:hover {
+    color: lightgray; /* Change color on hover */
+  }
+  
+  /* Style for the footer's company and copyright */
+  .alldiv p {
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .Totaldiv {
+    background-color: white;
+    display: block;
+    height: 100vh;
+  }
+  
+  .Headerdiv {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Footerdiv {
+    display: block;
+    align-items: center;
+    position: relative; /* Allows positioning of footerlastpart */
+  }
+  
+  .footerlastpart {
+    margin-top: auto; /* Pushes footerlastpart to the bottom */
+    text-align: center; /* Center the content inside */
+    width: 100%; /* Optional: Make it span the full width */
+    padding-top: 20px; /* Add padding to create space above */
+  }
+  .BodyDiv{
+    background-color: black;
+  }
+  .pic1{
+    margin-left: 20px ;
+  }
+  .sample{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+  }
+  .premaluimg{
+    height: 70%;
+    width: 70%;
+  }
+  .carouseldiv {
+    width: 100%;
+    
+    margin-left: 40px;
+  }
+  
+  /* Align the prev and next buttons inside the images and vertically center them */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Adjust the width if needed */
+    top: 50%; /* Vertically center the buttons */
+    transform: translateY(-50%); /* Correct vertical alignment */
+  }
+  
+  .carousel-control-prev {
+    left: 10px; /* Adjust to move the prev button inside the left edge */
+  }
+  
+  .carousel-control-next {
+    right: 10%; /* Adjust to move the next button inside the right edge */
+  }
+  
+  /* Optional: Adjust the size of the arrow icons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Optional: Change the background color and shape of the arrows */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    border-radius: 50%; /* Make the arrows circular */
+  }
+  
+  /* Style for the caption */
+  .carousel-caption-hover {
+    position: absolute; /* Position absolutely within the carousel item */
+    bottom: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px; /* Add some padding around the text */
+    border-radius: 5px; /* Rounded corners for the text container */
+    display: none; /* Hide text by default */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+  }
+  
+  /* Show text only when hovering over the image */
+  .carousel-item img:hover ~ .carousel-caption-hover {
+    display: block;
+  }
+  
+
+.hoverP{
+  color: white;
+  line-height: 10px;
+}
+.top10{
+  margin-top: 40px;
+  position: relative
+  
+  
+}
+.top10heading{
+  color: white;
+  margin-top: 20px  ;
+  margin-left: 30px;
+}
+.titlecard{
+  margin-top: 10px;
+  margin-left: 20px ;
+  color: white;
+  font-size: 20px;
+}
+.wtchnowbtn{
+  background-color: none;
+  color: blue;
+  margin-top: 10px;
+  margin-left: 60px ;
+}
+.trainerlink{
+  margin-top: 30px;
+  margin-left: 80px ;
+}
+.movie1,.movie2,.movie3,.movie4  {
+  width: 20%;
+  border: 2px solid white; /* Border around the container */
+  border-radius: 5px; /* Optional: Rounds the corners of the border */
+  padding: 10px; /* Space between the border and the content */
+  margin: 10px; /* Space outside the border */
+  background-color: black; /* Background color inside the border */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  
+}
+
+.deadpool {
+  width: 100%; /* Image fits within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.titlecard {
+  color: white; /* Text color */
+  margin-top: 10px;
+  margin-left: 30px; /* Space above the title */
+}
+
+.wtchnowbtn {
+  background-color: blue; /* Button background color */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the button text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 3px; /* Rounded corners for the button */
+  margin-top: 10px; /* Space above the button */
+}
+
+.trainerlink {
+  color: white; /* Text color */
+  margin-top: 10px; /* Space above the link */
+  margin-left: 95px;
+}
+.movie2,.movie3,.movie4,.movie5,.movie6 {
+  width: 20%;
+  border: 2px solid white; /* Border around the container */
+  border-radius: 5px; /* Optional: Rounds the corners of the border */
+  padding: 10px; /* Space between the border and the content */
+  margin: 10px; /* Space outside the border */
+  background-color: black; /* Background color inside the border */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  
+}
+
+.HouseofD,.GameofT,.TBoys,.From,.PeakyB {
+  width: 100%; /* Image fits within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+.GOT,.Mboys,.Golam,.Turbo,.VS {
+  width: 100%; /* Image fits within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.titlecard {
+  color: white; /* Text color */
+  margin-top: 10px;
+  margin-left: 50px; /* Space above the title */
+}
+
+.wtchnowbtn {
+  background-color: blue; /* Button background color */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the button text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 3px; /* Rounded corners for the button */
+  margin-top: 10px; /* Space above the button */
+}
+
+.trainerlink {
+  color: white; /* Text color */
+  margin-top: 10px; /* Space above the link */
+  margin-left: 95px;
+}
+.movies-container {
+  display: flex; /* Enables flexbox for the container */
+  justify-content: flex-start; /* Aligns items to the start of the container */
+  gap: 10px; /* Space between the two divs */
+}
+.titlecard2{
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.titlecardsG{
+  color: white;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.titlecardsVS5{
+  color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.titlecardsT4{
+  color: white;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.titlecardGOT{
+color: white;
+margin-top: 20px;
+margin-left: 40px;
+}
+.wtchnowbtn2{
+  color: white;
+  background-color: blue;
+  margin-left: 60px;
+  padding: 5px 10px; /* Padding around the button text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 3px;
+}
+.titlecards3{
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.wtchnowbtn3{
+  color: white;
+  background-color: blue;
+  margin-left: 60px;
+  padding: 5px 10px; /* Padding around the button text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 3px;
+}
+.titlecards4{
+  color: white;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.wtchnowbtn4{
+  color: white;
+  background-color: blue;
+  margin-left: 60px;
+  padding: 5px 10px; /* Padding around the button text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 3px;
+}
+.titlecards5{
+  color: white;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.wtchnowbtn5{
+  color: white;
+  background-color: blue;
+  margin-left: 60px;
+  padding: 5px 10px; /* Padding around the button text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 3px;
+}
+.sidebar{
+  display: flex;
+  justify-content: flex-start;
+}

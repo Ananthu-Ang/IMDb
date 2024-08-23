@@ -1,0 +1,36 @@
+.wholediv {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    padding: 20px; /* Optional: Adds some padding around the container */
+    background-color: black;
+    height: 750px;
+  }
+  
+  iframe {
+    flex: 1; /* Takes up 50% of the width */
+    max-width: 800px;
+    height: 400px;
+  }
+  
+  .contentsdiv {
+    flex: 1; /* Takes up the remaining 50% of the width */
+    margin-left: 20px; /* Adds space between the video and the content */
+    color: white;
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: yello;
+    margin-bottom: 20px;
+  }
+  
+  .contentP {
+    font-size: 1.2em; /* Optional: Adjust the font size */
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  p {
+    line-height: 1.6; /* Optional: Adjusts the line height for readability */
+  }
+  

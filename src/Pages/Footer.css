@@ -1,0 +1,46 @@
+.Footerdiv {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.socialmd p, .Footerdiv p {
+  color: white;
+}
+
+.icondiv {
+  display: flex;
+  gap: 40px; /* Space between icons */
+  font-size: 25px;
+  color: white;
+  justify-content: center;
+  margin-bottom: 50px; /* Space below the icons */
+}
+
+.frstline, .scndline {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Space between the links */
+  margin-bottom: 15px; /* Space between lines of links */
+}
+
+.frstline a, .scndline a {
+  color: white;
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.frstline a:hover, .scndline a:hover {
+  color: lightgray; /* Change color on hover */
+}
+
+/* Style for the footer's company and copyright */
+.Footerdiv p {
+  margin: 10px 0;
+  color: white;
+}
+.Footerdiv{
+  background-color: black;
+  width: 100%;
+}

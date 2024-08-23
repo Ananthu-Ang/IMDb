@@ -1,0 +1,211 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color:black;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 250vh;
+    gap: 100px;
+}
+
+.logo {
+    color: #f5c518; /* IMDb signature yellow color */
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.imdb-logo {
+    color: #f5c518; /* IMDb yellow color */
+    font-size: 40px; /* Adjust size to fit the navbar */
+    margin-right: 10px; /* Space between logo and any adjacent elements */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    position: relative;
+    padding: 14px 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1f1f1e; /* Brighter background color for better visibility */
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333; /* Dark text color for contrast against the bright background */
+    display: block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: black; /* Slightly darker yellow for hover effect */
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Search Container */
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+/* Search Input */
+.search-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+
+.search-input:focus {
+    border-color: #666;
+}
+/* Show dropdown when the search container is focused */
+.search-container:focus-within .search-dropdown {
+    display: block;
+}
+.searchicon {
+    position: absolute;
+    right: 10px; /* Adjust to your preference */
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #666;
+    pointer-events: none;
+}
+
+/* Dropdown */
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+} */
+
+/* Navbar styling (for reference) */
+.navbar {
+    position: relative;
+    z-index: 100; /* Set a lower z-index compared to the dropdown */
+}
+
+/* Search Container */
+.search-container {
+    position: relative;
+    width: 300px;
+    z-index: 200; /* Ensure this is higher than the navbar */
+}
+
+/* Search Input */
+.search-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #666;
+}
+
+/* Dropdown */
+.search-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    top: 42px; /* Adjusted to be below the search input */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 300; /* Ensure the dropdown appears on top */
+}
+
+.search-dropdown a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-dropdown a:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+
